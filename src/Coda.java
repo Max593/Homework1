@@ -5,13 +5,8 @@ import java.util.Arrays;
  */
 public class Coda {
     private int[] cd;
-    private int pointer;
 
-    public Coda(int l) {
-        cd = new int[l];
-        pointer = cd.length-1;
-    }
-
+    public Coda(int l) { cd = new int[l]; }
     public Coda() { this(0); }
 
     public boolean is_empty() { return cd.length == 0; }
